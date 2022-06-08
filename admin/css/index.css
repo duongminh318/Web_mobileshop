@@ -1,0 +1,60 @@
+* {margin:0; padding:0;}
+table {margin: 0; padding: 0; text-indent:0;}
+body { font-family:tahoma;}
+/* body { font-family:tahoma; background:url("../img/13.gif");} */
+a {text-decoration:none;}
+ul li {list-style:none;}
+
+#wapper {width:1000px; height:auto; margin:auto; overflow:hidden; background:white; border:1px solid #e6e6e6; -webkit-box-shadow: 0 1px 20px #767676; box-shadow:0 1px 20px #767676;-moz-box-shadow: 0 1px 20px #767676;}
+#header {width:100%; height:150px;}
+	#lg-header {width:104px; height:98px; float:left; padding-top:20px; padding-left:40px;}
+		#lg-header a{background:url(../img/logo-header.png) no-repeat; width:104px; height:98px; display:block; text-indent:-99999px; float:left;}
+	#bg-header {background:url(../img/bg-header.png) no-repeat; width:1000px; height:150px; margin:0 auto; border-bottom:1px solid #151515;}
+
+#content {width:100%; height:auto; float:left; overflow:hidden; }
+	#main-content {width:100%; height:auto; margin-top:10px; overflow:hidden; }
+		#top-content {width:100%; height:50px; background:url("../img/bg-input.jpg") repeat-x; border-top:1px solid black;}
+		#top-content p{color:black; float:right; padding-right:30px; padding-top:14px;}
+		#left-content {width:200px; height:auto; float:left; overflow:hidden;  padding-bottom:50px;}
+			.danhmucsp {width:200px; height:auto; background:#ffffff; overflow:hidden; }
+				.danhmucsp:nth-child(2) {margin-top:20px;}
+			.center {width:188px; height: auto; overflow:hidden;  border:1px solid #b4b4b4; margin:auto; border-radius:3px;}
+	.center  h4{background:url(../img/tiedeleft.png) no-repeat; width:188px; height:40px; margin:auto; padding-top:10px; text-indent:40px;}
+			
+			.center ul {width:100%; height:auto;  overflow:hidden; background:#ffffff;  padding-bottom:40px; }
+			.center ul li {padding:10px 0px 10px 0px; height:15px; width:100%;border-bottom:1px solid #aea8a8;}
+			.center ul li a{color:blue; float:left; padding-left:20px; }
+			.center ul li a:hover{text-decoration:underline;}
+			#phukien {width:200px; height:auto; overflow:hidden;  background:#ffffff; margin-top:20px;}
+			#quangcao1 {padding-top:20px;}
+			
+			
+			/* Show content_admin*/
+		#center-content {width:780px; height:auto; float:right; overflow:hidden;  padding-right:10px; overflow: hidden; padding-bottom:50px;}
+			
+			
+
+
+/*-----------------------Check hóa đơn-------------------------------------*/	
+		#check {width:100%; height:auto;overflow:hidden}
+			#check p input {width:100px; height:30px; cursor:pointer; background:white; border:1px solid #45aaf2;}
+			#check p input:nth-child(2) {width:50px;}
+			#check p input:nth-child(3) {width:50px}
+			#check p input:hover {background:#45aaf2; color:white;}
+
+/*-----------------------Sản phẩm mới nhập về-------------------------------------*/	
+#admincon {width:780px; height:auto; overflow:hidden;}
+	#sanphammoi {width:100%; height:auto; overflow:hidden;}
+		#sanphammoi table {width:100%; border-collapse:collapse;font-size:14px;}
+		#sanphammoi tr { text-align:center;}
+		#sanphammoi tr td{ border:1px solid #45aaf2;}
+		#sanphammoi tr.tieudespmoi {color:white; background: #45aaf2; height:30px; font-size:18px;}	
+		#sanphammoi tr.sanphammoitheongay {background:#45aaf2; height:30px; text-align:center; color:white;font-size:22px; font-weight:bold;}
+		
+		#sanphammoi:nth-child(2) {margin-top:20px;}
+		#sanphammoi:nth-child(3) {margin-top:20px;}
+
+
+
+
+

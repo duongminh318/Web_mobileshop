@@ -1,0 +1,119 @@
+﻿table {
+    width: 780px;
+    height: auto;
+    margin: auto;
+}
+
+tr td {
+    border-top: 1px solid #e1e1e1;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+tr.tieude_themsp td {
+    background: #636e72;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: none;
+}
+
+td.img_hienthi_sp input {
+    padding-left: 50px;
+}
+
+tr td.input {
+    -left: 100px;
+}
+
+tr td input {
+    height: 30px;
+}
+
+tr td.input input {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background: #636e72;
+    color: white;
+    margin-left: 100px;
+}
+
+tr td.input input:hover {
+    background: #b2bec3;
+    color: #333;
+    border: 1px solid #636e72;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#madm {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=file] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}

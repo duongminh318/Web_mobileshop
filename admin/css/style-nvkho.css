@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+#wapper {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    border: 1px solid #e6e6e6;
+    -webkit-box-shadow: 0 1px 20px #767676;
+    box-shadow: 0 1px 20px #767676;
+    -moz-box-shadow: 0 1px 20px #767676;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+}
+
+#bg-header {
+    background: url(../img/banner.png) no-repeat;
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    border-bottom: 1px solid #151515;
+}
+
+#content {
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+
+#main-content {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#top-content {
+    width: 100%;
+    height: 50px;
+    background: url("../img/bg-input.jpg") repeat-x;
+    border-top: 1px solid black;
+}
+
+#top-content p {
+    color: black;
+    float: right;
+    padding-right: 30px;
+    padding-top: 14px;
+}
+
+#center-content-nvkho {
+    width: 780px;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    padding-right: 10px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+#left-content-nvkho {
+    width: 200px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.center-nvkho {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #b4b4b4;
+    border-radius: 3px;
+}
+
+.menu-nvkho ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    list-style-type: none;
+    background: #33434B;
+    text-align: left;
+}
+
+.menu-nvkho ul li {
+    color: #f1f1f1;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.menu-nvkho ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+}
+
+.menu-nvkho ul li a:hover {
+    background: #b2bec3;
+    color: #333;
+}

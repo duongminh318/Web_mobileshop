@@ -1,0 +1,580 @@
+
+/* CSS Document */
+
+* {
+	
+	margin:0px;	
+}
+
+body {
+	background:#E9F0F5 url(cloud-bg.png) repeat-x 20% 0;	
+	font-family:Arial, Helvetica, sans-serif;	
+	font-size:13px;		
+	margin:0px;
+	padding:0px;		
+}
+
+div#midground{
+background: transparent url(cloud-bh.png) 30% 128px repeat-x;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+div#foreground{
+background: transparent url(cloud-bi.png) 40% 180px repeat-x;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+/* Fix for Google Chrome clipped background bug */
+html {
+	background-color: #E9F0F5;
+}
+
+img {
+	border:none;	
+}
+
+h1, h2  {
+	
+	border-bottom:2px dotted #cc6600;
+	margin-top:20px;
+	margin-bottom:10px;
+	padding-top:0px;
+	padding-bottom:5px;
+	font-size:18px;
+	font-weight:bold;
+	color:#f90;
+	font-family:Tahoma, Geneva, sans-serif;
+	
+	letter-spacing:1px;
+}
+
+h2 {
+	font-size:13px;
+	text-transform:uppercase;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	letter-spacing:2px;
+	color:#333333;
+	border-bottom:2px solid #cccccc;
+	
+	
+}
+
+h3 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#333;
+	letter-spacing:1px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+p {
+	
+	margin-bottom:10px;
+	margin-top:10px;
+	line-height:140%;
+	
+}
+
+.tip {
+	border-bottom:2px dashed #e00;
+	cursor:help;
+}
+
+.showhide, .showhideopen {
+	cursor:pointer;
+	font-weight:bold;
+	padding:5px;
+	background:#f90;
+	border:#666;
+	margin-bottom:10px;
+	display:block;
+	font-size:13px;
+	
+	background-image:url(showhide.png);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:20px;
+}
+.showhide:hover, .showhideopen:hover {
+	color:#FFF;	
+}
+ .showhideopen {
+	 background-image:url(showhide.png);
+ }
+
+.codeblock, .codeblock-noscroll {
+	
+	font-family:"Courier New", Courier, monospace;
+	font-size:11px;
+	padding:10px;
+	color:#000;
+	background:#eee;
+	border:1px solid #CCC;
+	line-height:1.5em;
+	overflow:auto;
+	height:512px;
+}
+ .codeblock-noscroll {
+ 	height:auto;	
+ }
+
+.codeblock .comment, .codeblock-noscroll .comment {
+	color:#777;
+}
+
+#container {	
+	width:800px;	
+	margin-left:auto;
+	margin-right:auto;
+	/*background-color:#fff;*/		
+	
+}
+
+/* Feature section in ZoomEngine page */
+.zoom-section {	
+	clear:both;		
+}
+
+* html .zoom-section { 
+	display:inline;
+	clear:both;
+}
+/* Feature descriptions in ZoomEngine page */
+.zoom-desc {
+	float:left;
+	margin-left:10px;
+	width:310px;
+	margin-bottom:20px;
+
+}
+
+.zoom-small-image {
+	border:4px solid #CCC;
+	float:left;
+	margin-bottom:20px;
+}
+.zoom-tiny-image {
+	border:1px solid #CCC;
+	margin:0px;
+	
+}
+.zoom-tiny-image:hover {
+	border:1px solid #C00;		
+}
+
+
+#banner {	
+	background-repeat:no-repeat;
+	height:105px;
+	background:url(banner20.png);
+	position:relative;
+	z-index:10;
+	
+}
+
+#footer {	
+	position:relative;
+	text-align:center;
+	color:#333;
+	font-size:10px;
+	background:url(footer-b.png);	
+	background-repeat:no-repeat;
+	background-position:bottom;
+	height:40px;
+	/*padding:10px;*/
+	padding-top:2px;
+	padding-bottom:10px;	
+}
+
+#footer-top {
+
+	height:30px;
+	display:block;
+	background:url(footer-t.png) ;
+	background-repeat:no-repeat;	
+	margin:0px;	
+	clear:both;
+	
+}
+
+#footer-validation {
+	position:absolute;
+	top:-3px;
+	right:20px;
+	width:75px;	
+}
+
+#bannertext {
+	display:none;
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing:1px;
+	position:absolute;
+	left:256px;
+	top:60px;
+	color:#f90;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+
+#logo {
+	position:absolute;
+	display:inline-block;	
+	left:20px;
+	top:0px;
+	width:256px;
+	height:56px;
+	border:none;	
+	cursor:pointer;
+	float:left;
+	z-index:11;
+}
+#logo span { display:none;}
+
+#content-container {
+	background-color:#fff;	
+	overflow:hidden;	/* force div to expand vertically to accomodate content (not IE6) */
+	background-image:url(middle00.png);	
+}
+
+/* force div to expand vertically to accomodate content (for IE6) */
+* html #content-container {
+	height:1%;
+}
+
+#rightcontent {
+	height:auto;
+	float:left;
+	width:168px;	
+	padding-left:10px;
+	margin-top:30px;	
+}
+
+#maincontent {	
+	padding-left:20px;
+	padding-right:10px;
+	padding-bottom:10px;
+	
+	float:left;
+	width:570px;	
+	
+}
+#maincontent a {
+	
+}
+
+#maincontent a:hover {
+	color:#C00;	
+}
+
+/*****************************************************/
+
+	/* General */
+	#cssdropdown { 
+		position:absolute;	
+		top:6px;
+		left:330px;
+		z-index:10000;
+		background:none;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:bold;
+		letter-spacing:0px;
+		font-size:12px;
+		
+	}
+	#cssdropdown, #cssdropdown ul { list-style: none; }
+	#cssdropdown, #cssdropdown * { padding: 0; margin: 0;  }
+	
+	/* Head links */
+	#cssdropdown li.headlink { float: left; width:auto; display:block;  }
+	#cssdropdown li.headlink a { display:block; color:#444; padding: 4px; padding-bottom:10px; text-decoration:none; padding-right:20px;}
+	#cssdropdown li.headlink a:hover { color:#fff;}
+ 
+	/* Child lists and links */
+	/* the abs position allows the drop down to have its own width without affecting the tab widths */
+	#cssdropdown li.headlink ul { display: none;  text-align: left; position:absolute; width:174px;} /* this is the image width */
+	#cssdropdown li.headlink:hover ul { display: block; }
+	/* Links within the menu */
+	#cssdropdown li.headlink ul li a {
+		padding: 5px 10px 3px 10px; 
+		margin:0px; color:#333; 
+		text-decoration:none; 
+		width:156px; /* this is the space available for text */
+		font-weight:normal;
+		font-size:12px;
+		font-weight:bold;
+		text-transform:none;
+	}
+	#cssdropdown li.headlink ul li a:hover { text-decoration:none;background-color:#cc6600;width:146px;}
+	
+	/* Pretty styling */	
+	/*#cssdropdown a { color: black; }*/
+	#cssdropdown ul li a:hover { text-decoration: none; }	
+	/* The drop down menu itself. */
+	#cssdropdown li.headlink ul { z-index:10000;
+	background-image: url(dropmenu.png);
+	background-position: bottom;
+	padding-bottom: 15px;
+	background-repeat:no-repeat;
+	
+	}
+
+/*****************************************************/
+
+textarea ,.codeinput  {
+/*	background:#000;
+	color:#090;
+	font-size:12px;
+	font-weight:bold;
+	font-family:"Courier New", Courier, monospace;
+	clear:both;
+	border:none;
+	padding:10px;
+*/
+}
+
+/****************************/
+#viewport {
+	
+	margin-left:auto;
+	margin-right:auto;
+	border:none;
+}
+
+#planetLinks {
+	margin:0px;
+	padding:0px;
+	height:64px;
+}
+
+
+
+.tickul  {
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	margin-bottom:20px;
+	
+}
+
+.tickul li {
+	margin-left:20px;	
+	margin-bottom:5px;
+	padding-left:25px;
+	background: no-repeat url(tick0000.gif);
+	background-position: 0px 3px;	
+	font-size:12px;
+}
+
+
+#download_table {
+	border-collapse:collapse;
+	border:1px solid #cccccc;
+}
+#download_table td {
+	border-collapse:inherit;
+	border:1px solid #cccccc;
+	padding:5px;
+}
+#download_table th {
+	font-weight:bold;
+	text-align:left;
+	padding:5px;
+	background-color:#eee;
+}
+
+
+.carouselLeft {	
+	display:none;
+	background:url(rotate-l.png);	
+	width:40px; height:40px;
+	background-position: 0px 0px;
+}
+.carouselLeft:hover {		
+	width:40px; height:40px;
+	background-position: 0px 40px;
+	cursor:auto;
+}
+.carouselRight {
+	display:none;
+	background:url(rotate-r.png);	
+	width:40px; height:40px;
+	background-position: 0px 0px;
+}
+.carouselRight:hover {	
+	width:40px; height:40px;
+	background-position: 0px 40px;
+}
+/****************************************/
+
+#da-vinci-title {
+	display:none;	
+	color:#f90;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:17px;
+	font-weight:bold;
+	margin:20px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	margin-bottom:10px;
+	width:80%;
+}
+#da-vinci-alt{
+	display:none;	
+	color:#ddd;
+	margin:20px;
+	margin-top:0px;
+	font-size:14px;
+	font-weight:bold;
+	
+}
+
+a, a:focus, a:active {
+
+   outline: 0 none;
+  	border:none;
+	
+}
+
+/*****************************************************/
+
+form.cmxform fieldset {
+	margin:0px;
+  /*margin-bottom: 10px;*/
+  border:1px solid #CCC;
+  padding:0px;
+	background:url(contact-.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	padding:20px;
+	padding-top:0px;
+ /* padding:20px;*/
+
+}
+form.cmxform legend {
+  
+  font-weight: bold;  
+	
+}
+form.cmxform label {
+  display: inline-block; 
+  line-height: 1.8;
+  vertical-align: top;
+  text-align:right;
+
+}
+form.cmxform fieldset ol {
+  margin: 0;
+  padding: 0;
+  
+}
+form.cmxform fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  margin-top:10px;
+  border-bottom:1px solid #ccc;
+
+}
+/*
+form.cmxform fieldset fieldset {
+  border:1px solid;
+  margin: 3px 0 0;  
+}
+form.cmxform fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+form.cmxform fieldset fieldset label {
+  display: block;
+  width: auto;
+  
+}
+*/
+
+form.cmxform em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+form.cmxform label {
+  width: 140px; /* Width of labels */
+}
+form.cmxform fieldset fieldset label {
+  margin-left: 140px; /* Width plus 3 (html space) */
+  text-align:left;	
+}
+
+form.cmxform textarea {
+	width:256px;
+	height:128px;
+}
+
+form.cmxfrom button {
+	
+}
+
+form.cmxform .error, form.cmxform .ok {
+	font-weight:bold;
+	margin-left:150px;
+	color:#e00;	
+}
+form.cmxform .ok {
+	color:#333;	
+}
+/*****************************************************/
+
+table {
+	
+	border-collapse:collapse;
+	border:1px solid #CCC;
+	margin-bottom:20px;
+}
+td , th{
+	padding:10px;
+	vertical-align:top;	
+	border:1px dotted #CCC;
+}
+th {
+	background-color:#eee;	
+}
+td.noWrap {
+	white-space:nowrap;	
+}
+/*****************************************************/
+.addthis_toolbox {
+	margin-bottom:20px;	
+}
+
+/*****************************************************/
+#right-nav {
+		list-style: none;
+		margin:0px;
+		padding:0px;
+}
+#right-nav li a, #right-nav li a:hover, #right-nav li a:visited
+{
+	padding:0px;
+	border:4px solid #C60;
+	padding:5px;
+	display:block;
+	margin-bottom:10px;
+	text-decoration:none;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	letter-spacing:0px;
+	font-size:12px;
+	background:#F90;
+	color:#333;
+}
+#right-nav li a:hover {
+	color:#FFF;
+	
+}
+

@@ -1,0 +1,383 @@
+/*---------------------------------------- Doanh thu ---------------------------------*/
+
+.doanhthu {
+    padding: 10px 10px;
+}
+
+.doanhthu h2 {
+    font-size: 30px;
+    padding-left: 150px;
+    color: #33434B;
+    margin-left: 150px;
+}
+
+
+/*--------------------------------------- Sản phẩm -----------------------------------*/
+
+.quanlysp {
+    padding: 10px 10px;
+}
+
+.quanlysp h2 {
+    font-size: 30px;
+    padding-left: 150px;
+    color: #33434B;
+    margin-left: 110px;
+}
+
+.quanlysp a {
+    float: left;
+    border: 1px solid #33434B;
+    text-decoration: none;
+    height: 28px;
+    color: #2f3640;
+    line-height: 28px;
+    text-indent: 4px;
+    margin: 3px 2px 5px 0;
+}
+
+.quanlysp a:hover {
+    background: #636e72;
+    color: #f1f2ee;
+}
+
+.quanlysp p {
+    float: left;
+    margin-top: 2px;
+}
+
+#checksp {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+#checksp p input {
+    width: 100px;
+    height: 32px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #636e72;
+}
+
+#checksp p input:hover {
+    color: white;
+    background: #636e72;
+}
+
+#checksp a {
+    margin-left: 2px;
+}
+
+
+/*--------------------------------------- Danh mục ---------------------------------------*/
+
+.danhmuc {
+    padding: 10px 10px;
+}
+
+.danhmuc h2 {
+    font-size: 30px;
+    padding-left: 150px;
+    color: #33434B;
+    margin-left: 100px;
+}
+
+.danhmuc a {
+    float: left;
+    border: 1px solid #33434B;
+    text-decoration: none;
+    height: 28px;
+    color: #2f3640;
+    line-height: 28px;
+    text-indent: 4px;
+    margin-bottom: 5px;
+}
+
+.danhmuc a:hover {
+    background: #636e72;
+    color: #f1f2ee;
+}
+
+.danhmuc p {
+    margin-top: 2px;
+}
+
+
+/*---------------------------------------- Hóa đơn --------------------------------------------*/
+
+.hoadon {
+    padding: 10px 10px;
+}
+
+.hoadon h2 {
+    font-size: 30px;
+    padding-left: 150px;
+    color: #33434B;
+    margin-left: 150px;
+}
+
+.hoadon a {
+    float: left;
+    border: 1px solid #33434B;
+    text-decoration: none;
+    height: 28px;
+    color: #2f3640;
+    line-height: 28px;
+    text-indent: 4px;
+    margin-bottom: 5px;
+}
+
+.hoadon a:hover {
+    background: #636e72;
+    color: #f1f2ee;
+}
+
+#checkhd {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+#checkhd p input {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #636e72;
+}
+
+#checkhd p input:nth-child(1) {
+    width: 50px;
+}
+
+#checkhd p input:nth-child(2) {
+    width: 50px;
+}
+
+#checkhd p input:nth-child(3) {
+    width: 50px
+}
+
+#checkhd p input:hover {
+    background: #636e72;
+    color: white;
+}
+
+#inhoadon p a {
+    text-decoration: none;
+}
+
+
+/*----------------------------------------------- Người dùng -------------------------------------*/
+
+.nguoidung {
+    padding: 10px 10px;
+}
+
+.nguoidung h2 {
+    font-size: 30px;
+    padding-left: 150px;
+    color: #33434B;
+    margin-left: 100px;
+}
+
+
+/*----------------------------------------------- Nhà cung cấp -----------------------------------*/
+
+.nhacungcap {
+    padding: 10px 10px;
+}
+
+.nhacungcap h2 {
+    font-size: 30px;
+    padding-left: 150px;
+    color: #33434B;
+    margin-left: 70px;
+}
+
+.nhacungcap a {
+    float: left;
+    border: 1px solid #33434B;
+    text-decoration: none;
+    height: 28px;
+    color: #2f3640;
+    line-height: 28px;
+    text-indent: 4px;
+    margin: 5px 0 5px 0;
+}
+
+.nhacungcap a:hover {
+    background: #636e72;
+    color: #f1f2ee;
+}
+
+
+/*----------------------------------------------- Tin tức ----------------------------------------*/
+
+.tintuc {
+    padding: 10px 10px;
+}
+
+.tintuc h2 {
+    font-size: 30px;
+    padding-left: 150px;
+    color: #33434B;
+    margin-left: 180px;
+}
+
+.tintuc a {
+    float: left;
+    border: 1px solid #33434B;
+    text-decoration: none;
+    height: 28px;
+    color: #2f3640;
+    line-height: 28px;
+    text-indent: 4px;
+    margin: 4px 0 4px 4px;
+}
+
+.tintuc a:hover {
+    background: #636e72;
+    color: #f1f2ee;
+}
+
+#checktt {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+#checktt p input {
+    float: left;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #636e72;
+    margin: 4px 0 4px 0;
+}
+
+#checktt p input:nth-child(1) {
+    width: 50px;
+}
+
+#checktt p input:hover {
+    background: #636e72;
+    color: white;
+}
+
+
+/*----------------------------------------------- Hỗ trợ -----------------------------------------*/
+
+.hotro {
+    padding: 10px 10px;
+}
+
+.hotro h2 {
+    font-size: 30px;
+    padding-left: 150px;
+    color: #33434B;
+    margin-left: 80px;
+}
+
+#checkht {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+#checkht p input {
+    float: left;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #636e72;
+    margin: 4px 0 4px 0;
+}
+
+#checkht p input:hover {
+    background: #636e72;
+    color: white;
+}
+
+
+/*----------------------------------------------- Table ------------------------------------------*/
+
+table {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+
+tr td {
+    border-bottom: 1px solid black;
+}
+
+tr.tieude_hienthi_sp td {
+    color: white;
+    background: #33434B;
+    height: 30px;
+    font-size: 18px;
+}
+
+td.img_hienthi_sp img {
+    padding-top: 5px;
+}
+
+td.img_hienthi_sp h4 {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+#phantrang_sp {
+    float: left;
+    padding-top: 10px;
+    margin-left: 300px;
+}
+
+a button {
+    border: 1px solid #cdcdcd;
+    font-size: 16px;
+    height: 25px;
+    cursor: pointer;
+    color: #636e72;
+    background: #f1f2ee;
+}
+
+a button:hover {
+    background: #a7a7a7;
+    color: white;
+}
+
+a button.trang {
+    width: 50px;
+}
+
+a button.so {
+    width: 20px;
+}
+
+.active_hienthi_sp a {
+    float: left;
+    margin-left: 5px;
+    padding: 10px 0px;
+}
+
+.active_hienthi_sp a img:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.active_hienthi_sp p {
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.active_hienthi_sp p img:hover {
+    width: 35px;
+    height: 35px;
+}

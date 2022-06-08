@@ -1,0 +1,124 @@
+.hoadon {
+    padding: 10px 10px;
+}
+
+.hoadon h2 {
+    font-size: 30px;
+    padding-left: 150px;
+    color: #33434B;
+    margin-left: 80px;
+}
+
+.hoadon p {
+    float: left;
+    margin-top: 2px;
+}
+
+#checkhd {
+    width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+#checkhd p input {
+    width: 100px;
+    height: 32px;
+    cursor: pointer;
+    background: white;
+    border: 1px solid #636e72;
+}
+
+#checkhd p input:hover {
+    color: white;
+    background: #636e72;
+}
+
+#checkhd a {
+    margin-left: 2px;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+
+tr td {
+    border: 1px solid #2f3542;
+}
+
+tr.tieude_hienthi_sp td {
+    color: white;
+    background: #33434B;
+    height: 30px;
+    font-size: 18px;
+}
+
+td.img_hienthi_sp img {
+    padding-top: 5px;
+}
+
+td.img_hienthi_sp h4 {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+#phantrang_sp {
+    float: left;
+    padding-top: 10px;
+    margin-left: 300px;
+}
+
+a button {
+    border: 1px solid #cdcdcd;
+    font-size: 16px;
+    height: 25px;
+    cursor: pointer;
+    color: #636e72;
+    background: #f1f2ee;
+}
+
+a button:hover {
+    background: #a7a7a7;
+    color: white;
+}
+
+a button.trang {
+    width: 50px;
+}
+
+a button.so {
+    width: 20px;
+}
+
+.active_hienthi_sp a {
+    float: left;
+    margin-left: 5px;
+    padding: 10px 0px;
+}
+
+.active_hienthi_sp a:hover {
+    color: #60a3bc;
+}
+
+.active_hienthi_sp p {
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.active_hienthi_sp p img:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.chitiethoadon {
+    padding: 10px 10px;
+}
+
+.chitiethoadon h2 {
+    font-size: 30px;
+    padding-left: 150px;
+    color: #33434B;
+}

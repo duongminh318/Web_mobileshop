@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteRule ^dien-thoai/(.*)-([0-9]+).html$ index.php?content=chitietsp&stt=$2
+RewriteRule ^dien-thoai/$ index.php?com=dienthoai&action=viewall
+RewriteRule ^dien-thoai/page/([0-9]+)$ index.php?com=dienthoai&action=viewall&page=$1
+RewriteRule ^phu-kien/(.*)/(.*)-([0-9]+).html$ index.php?com=phukien&action=ttct&id=$3
+RewriteRule ^phu-kien/(.*)/(.*)-([0-9]+).huudepzai$ index.php?com=phukien&action=ttct&id=$3
+RewriteRule ^phu-kien/(.*)-([0-9]+).html$ index.php?com=phukien&action=danhmuc&id=$2
+RewriteRule ^phu-kien/$ index.php?com=phukien
+RewriteRule ^tin-tuc(/|)$ index.php?com=tintuc
+RewriteRule ^tin-tuc/(.*)-([0-9]+).html$ index.php?com=tintuc&action=ttct&id=$2
+RewriteRule ^gioi-thieu(/|)$ index.php?com=gioithieu
+RewriteRule ^lien-he(/|)$ index.php?com=lienhe
+RewriteRule ^lien-he/guilh.html$ index.php?com=lienhe&action=send
+

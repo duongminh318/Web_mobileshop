@@ -1,0 +1,96 @@
+.quanlysp {
+    padding: 10px 10px;
+}
+
+.quanlysp h3 {
+    font-size: 40px;
+    padding-left: 150px;
+    color: #33434B;
+}
+
+.quanlysp a {
+    float: right;
+}
+
+.quanlysp a:hover {
+    text-decoration: underline;
+}
+
+.quanlysp p {
+    float: right;
+}
+
+table {
+    text-align: center;
+    width: 780px;
+    height: auto;
+    border-collapse: collapse;
+}
+
+tr td {
+    border: 1px solid #33434B;
+}
+
+tr.tieude_hienthi_sp td {
+    color: white;
+    background: #45aaf2;
+    height: 30px;
+    font-size: 18px;
+}
+
+td.img_hienthi_sp img {
+    padding-top: 5px;
+}
+
+td.img_hienthi_sp h4 {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+#phantrang_sp {
+    float: left;
+    padding-top: 10px;
+}
+
+a button {
+    border: 1px solid #cdcdcd;
+    font-size: 16px;
+    height: 25px;
+    cursor: pointer;
+    color: blue;
+    background: #f1f2ee;
+}
+
+a button:hover {
+    background: #a7a7a7;
+    color: white;
+}
+
+a button.trang {
+    width: 100px;
+}
+
+a button.so {
+    width: 20px;
+}
+
+.active_hienthi_sp a {
+    float: left;
+    margin-left: 5px;
+    padding: 10px 0px;
+}
+
+.active_hienthi_sp a img:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.active_hienthi_sp p {
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.active_hienthi_sp p img:hover {
+    width: 35px;
+    height: 35px;
+}

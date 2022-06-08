@@ -1,0 +1,154 @@
+table {
+    width: 580px;
+    height: auto;
+    border: 1px solid #636e72;
+    margin: auto;
+}
+
+tr td {
+    border-top: 1px solid #e1e1e1;
+    width: 30px;
+    padding-bottom: 5px;
+    width: 100px;
+    text-indent: 30px;
+    height: 50px;
+}
+
+tr.tieude_themsp td {
+    background: #fad390;
+    color: #576574;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: none;
+}
+
+td.img_hienthi_sp input {
+    padding-left: 30px;
+}
+
+tr td.input {
+    -left: 100px;
+}
+
+tr td.input input {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background: #636e72;
+    color: white;
+    margin-left: 100px;
+}
+
+tr td.input input:hover {
+    background: #b2bec3;
+    color: #333;
+    border: 1px solid #636e72;
+}
+
+.dangky input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.dangky input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dangky input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#madm {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=file] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.dangky input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=date] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
+}

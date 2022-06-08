@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+#wapper {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    border: 1px solid #e6e6e6;
+    -webkit-box-shadow: 0 1px 20px #767676;
+    box-shadow: 0 1px 20px #767676;
+    -moz-box-shadow: 0 1px 20px #767676;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+}
+
+#bg-header {
+    background: url(../img/banner.png) no-repeat;
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    border-bottom: 1px solid #151515;
+}
+
+#content {
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+
+#main-content {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+#top-content {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#top-content p {
+    color: black;
+    padding-left: 30px;
+    padding-top: 14px;
+}
+
+#left-content {
+    width: 150px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.center {
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #b4b4b4;
+    border-radius: 3px;
+}
+
+.menu ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    list-style-type: none;
+    background: #33434B;
+    text-align: left;
+}
+
+.menu ul li {
+    color: #f1f1f1;
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.menu ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+}
+
+.menu ul li a:hover {
+    background: #b2bec3;
+    color: #333;
+}
+
+#phukien {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+#quangcao1 {
+    padding-top: 20px;
+}
+
+
+/* Show content_admin*/
+
+#center-content {
+    width: 830px;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    padding-right: 10px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+
+/*-----------------------Sản phẩm mới nhập về-------------------------------------*/
+
+#admincon {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#sanphammoi {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#sanphammoi table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#sanphammoi tr {
+    text-align: center;
+}
+
+#sanphammoi tr td a {
+    text-decoration: none;
+}
+
+#sanphammoi h3 {
+    margin-bottom: 10px;
+}
+
+#sanphammoi tr.tieudespmoi {
+    color: white;
+    background: #33434B;
+    height: 30px;
+}
+
+#sanphammoi tr.sanphammoitheongay {
+    background: #33434B;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#sanphammoi:nth-child(2) {
+    margin-top: 20px;
+}
+
+#sanphammoi:nth-child(3) {
+    margin-top: 20px;
+}
+
+
+/*--------------------Shipper------------------------*/
+
+#center-content-shipper {
+    width: 800px;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    padding-right: 10px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+#left-content-shipper {
+    width: 190px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.center-shipper {
+    width: 190px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #b4b4b4;
+    border-radius: 3px;
+}
+
+.menu-shipper ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    list-style-type: none;
+    background: #33434B;
+    text-align: left;
+}
+
+.menu-shipper ul li {
+    color: #f1f1f1;
+    display: block;
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.menu-shipper ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+}
+
+.menu-shipper ul li a:hover {
+    background: #b2bec3;
+    color: #333;
+}
+
+
+/*--------------------Staff------------------------*/
+
+#center-content-staff {
+    width: 800px;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    padding-right: 10px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+#left-content-staff {
+    width: 190px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.center-staff {
+    width: 190px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #b4b4b4;
+    border-radius: 3px;
+}
+
+.menu-staff ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    list-style-type: none;
+    background: #33434B;
+    text-align: left;
+}
+
+.menu-staff ul li {
+    color: #f1f1f1;
+    display: block;
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.menu-staff ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+}
+
+.menu-staff ul li a:hover {
+    background: #b2bec3;
+    color: #333;
+}
+
+
+/*--------------------Nhân viên kho------------------*/
+
+#center-content-nvkho {
+    width: 800px;
+    height: auto;
+    float: right;
+    overflow: hidden;
+    padding-right: 10px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+#left-content-nvkho {
+    width: 200px;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.center-nvkho {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #b4b4b4;
+    border-radius: 3px;
+}
+
+.menu-nvkho ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    list-style-type: none;
+    background: #33434B;
+    text-align: left;
+}
+
+.menu-nvkho ul li {
+    color: #f1f1f1;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.menu-nvkho ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+}
+
+.menu-nvkho ul li a:hover {
+    background: #b2bec3;
+    color: #333;
+}
