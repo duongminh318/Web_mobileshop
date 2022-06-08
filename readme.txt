@@ -14,4 +14,6 @@
 				- thông kê tổng doanh thu
 				- xuất/in hóa đơn ban hàng, phiếu nhập/xuất kho
 				- xử lý đơn hàng
+	duongminh318@gmail.com
+	zalo/tell: 035 990 8712
 				
