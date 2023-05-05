@@ -14,7 +14,6 @@ We could generate ASCII art with different alphabets (english, german, french, k
   <img src="demo/english_output.jpg" width=800><br/>
   <i>English</i>
 </p>
-![image](https://user-images.githubusercontent.com/78397137/236475101-9c4b60e8-2e37-4930-8c68-89b9eb747463.png)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/78397137/236475101-9c4b60e8-2e37-4930-8c68-89b9eb747463.png" width=800><br/>
