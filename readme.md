@@ -22,7 +22,7 @@ Here is my PHP source code for e-commerce website . With my code:
 ## Multiple Language Conversion
 We could generate ASCII art with different alphabets (english, german, french, korean, chinese, japanese, ...). Below are example output:
 <p align="center">
-  <img src="![image](https://github.com/duongminh318/Web_mobileshop/assets/78397137/352ea6dc-03fa-4d12-9412-00650992c1eb)" width=800><br/>
+  <img src="(https://github.com/duongminh318/Web_mobileshop/assets/78397137/352ea6dc-03fa-4d12-9412-00650992c1eb" width=800><br/>
   <i>English</i>
 </p>
 
