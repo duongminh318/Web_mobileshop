@@ -1,12 +1,22 @@
-# [PYTHON] ASCII generator
+# [PHP] WEBSITE THƯƠNG MẠI ĐIỆN TỬ
 
 ## Introduction
+Mục tiêu của việc xây dựng trang web này nhằm giúp cho các cửa hàng giảm thao tác trên excel, mang lại tính chính xác và hiệu quả cao trong công tác quản lý hoạt động kinh doanh. Và khách hàng có thể mua hàng trực tiếp từ xa thông qua mạng internet phổ biến, có thể dễ dàng tham khảo thông tin sản phẩm mình tìm, so sánh giá cả các mặt hàng và lựa chọn cho mình loại sản phẩm phù hợp nhu cầu của mình, giúp công việc mua sắm một cách nhanh chóng, tiện lợi, tiết kiệm thời gian, đáp ứng được nhu cầu thực tế. Hệ thống tìm kiếm dễ dàng, giao diện thân thiện. Chỉ cần đăng nhập vào hệ thống với tài khoản đã có (nếu khách hàng đã là hội viên của cửa hàng) hay chỉ cần vài thao tác đăng ký đơn giản là khách hàng có thể tự do chọn mua và tạo đơn đặt hàng tại hệ thống. Bên cạnh đó quản trị viên có thể quản lý sản phẩm, đơn hàng và thống kê doanh thu
 
-Here is my python source code for ASCII generator. With my code: 
-* **Given input image, we could generate ASCII art stored under text format in different languages (.txt)**
-* **Given input image, we could generate ASCII art stored under image formats in different languages (.png, .jpg, ...). In each format, there are 2 options: Black background and white characters, or vice versa**
-* **Given input video, we could generate ASCII art stored under video formats in different languages (.avi, .mp4, ...)**
-* **Video/image outputs could be in grayscale or color format. It is totally up to you**
+Here is my PHP source code for e-commerce website . With my code: 
+-- user : admin
+					nhanvienbanhang
+						nhanviengiaohang
+							nhanvienkho
+								khach hang
+									khach hang vang lai
+				phân quyền mỗi user khác nhau
+				
+		-- các chức năng;
+				- thêm, xoa, sửa thông tin
+				- thông kê tổng doanh thu
+				- xuất/in hóa đơn ban hàng, phiếu nhập/xuất kho
+				- xử lý đơn hàng
 
 ## Multiple Language Conversion
 We could generate ASCII art with different alphabets (english, german, french, korean, chinese, japanese, ...). Below are example output:
