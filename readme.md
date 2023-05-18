@@ -24,7 +24,7 @@ output:
 
 
 <p align="center">
-  <img src="(https://github.com/duongminh318/Web_mobileshop/assets/78397137/352ea6dc-03fa-4d12-9412-00650992c1eb)" width=800><br/>
+  <img src="pic/home.png" width=800><br/>
   <i>English</i>
 </p>
 
