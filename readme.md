@@ -28,10 +28,6 @@ output:
   <i>English</i>
 </p>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/78397137/236475101-9c4b60e8-2e37-4930-8c68-89b9eb747463.png" width=800><br/>
-  <i>Japanese (Dragon Ball)</i>
-</p>
 
 <p align="center">
   <img src="https://github.com/duongminh318/Web_mobileshop/blob/master/pic/sanpham.png?raw=true" width=800><br/>
