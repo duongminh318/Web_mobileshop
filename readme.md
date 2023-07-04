@@ -124,11 +124,11 @@ By running the sript **img2img_color.py** or **img2img.py** with different value
   <i>Black-background complex-character ASCII output</i>
 </p>
 
-## Requirements
+## technology used
 
-* **python 3.6**
-* **cv2**
-* **PIL** 
-* **numpy**
+* **PHP**
+* **Javascript**
+* **HTML/CSS** 
+* **MySQL**
 
 
