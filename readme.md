@@ -22,6 +22,7 @@ Here is my PHP source code for e-commerce website . With my code:
 ## Giao Diện Người Dùng
 output:
 
+*Giao Diện Khách Hàng
 
 <p align="center">
   <img src="pic/home.png" width=800><br/>
@@ -40,23 +41,38 @@ output:
 </p>
 
 <p align="center">
-  <img src="demo/french_output.jpg" width=800><br/>
-  <i>French</i>
+  <img src="pic/chitietsanpham.png" width=800><br/>
+  <i>Chi Tiết Sản Phẩm</i>
 </p>
 
 <p align="center">
-  <img src="demo/chinese_output.jpg" width=800><br/>
-  <i>Chinese (Actress)</i>
+  <img src="pic/timkiemsanpham.png" width=800><br/>
+  <i>Tìm Kiếm Sản Phẩm</i>
 </p>
 
 <p align="center">
-  <img src="demo/spanish_output.jpg" width=800><br/>
-  <i>Spanish</i>
+  <img src="pic/giohang.png" width=800><br/>
+  <i>Trang Giỏ Hàng</i>
 </p>
 
 <p align="center">
-  <img src="demo/russian_output.jpg" width=800><br/>
-  <i>Russian</i>
+  <img src="pic/dangkythanhvien.png" width=800><br/>
+  <i>Đăng Ký Thành Viên</i>
+</p>
+
+<p align="center">
+  <img src="pic/phukien.png" width=800><br/>
+  <i>Thanh Toán</i>
+</p>
+
+<p align="center">
+  <img src="pic/thongtincanhan.png" width=800><br/>
+  <i>Chỉnh Sửa Thông Tin Cá Nhân </i>
+</p>
+
+<p align="center">
+  <img src="pic/donhang.png" width=800><br/>
+  <i> Kiểm Tra Đơn Hàng </i>
 </p>
 
 ## Video to video
