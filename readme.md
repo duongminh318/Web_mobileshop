@@ -22,16 +22,16 @@ Here is my PHP source code for e-commerce website . With my code:
 ## Giao Diện Người Dùng
 output:
 
-* Home
+
 <p align="center">
   <img src="pic/home.png" width=800><br/>
-  <i>English</i>
+  <i>Home</i>
 </p>
 
 
 <p align="center">
   <img src="pic/sanpham.png" width=800><br/>
-  <i>German</i>
+  <i>Xem Sản Phẩm</i>
 </p>
 
 <p align="center">
