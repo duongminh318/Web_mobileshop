@@ -30,7 +30,7 @@ output:
 
 
 <p align="center">
-  <img src="https://github.com/duongminh318/Web_mobileshop/blob/master/pic/sanpham.png?raw=true" width=800><br/>
+  <img src="pic/sanpham.png" width=800><br/>
   <i>German</i>
 </p>
 
