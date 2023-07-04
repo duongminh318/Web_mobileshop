@@ -22,7 +22,7 @@ Here is my PHP source code for e-commerce website . With my code:
 ## Giao Diện Người Dùng
 output:
 
-
+* Home
 <p align="center">
   <img src="pic/home.png" width=800><br/>
   <i>English</i>
@@ -34,7 +34,7 @@ output:
 </p>
 
 <p align="center">
-  <img src="demo/german_output.jpg" width=800><br/>
+  <img src="https://github.com/duongminh318/Web_mobileshop/blob/master/pic/sanpham.png?raw=true" width=800><br/>
   <i>German</i>
 </p>
 
