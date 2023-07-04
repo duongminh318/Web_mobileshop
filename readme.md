@@ -35,8 +35,8 @@ output:
 </p>
 
 <p align="center">
-  <img src="demo/korean_output.jpg" width=800><br/>
-  <i>Korean (Dae Jang-geum)</i>
+  <img src="pic/phukien.png" width=800><br/>
+  <i> Trang Phụ Kiện</i>
 </p>
 
 <p align="center">
