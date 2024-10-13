@@ -84,12 +84,12 @@ output:
 
 <p align="center">
   <img src="pic/chitietsanpham.png" width=800><br/>
-  <i>**Product Details**</i>
+  <i>Chi Tiết Sản Phẩm</i>
 </p>
 
 <p align="center">
   <img src="pic/timkiemsanpham.png" width=800><br/>
-  <i>**Search Product**</i>
+  <i>Tìm Kiếm Sản Phẩm</i>
 </p>
 
 <p align="center">
@@ -118,7 +118,7 @@ output:
 Check Order </i>
 </p>
 
-## **Admin Page**
+## Trang ADMIN
 Quản lý Bán Hàng, Và Quản Lý Sản Phẩm, Tin Tức: 
 Sales Management, Product Management, and News Management:
 
